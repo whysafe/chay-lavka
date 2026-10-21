@@ -1,0 +1,11 @@
+{
+  "name": "chay-lavka",
+  "version": "1.0.0",
+  "description": "Интернет-магазин чая ручной обжарки с конструктором купажа",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/core.test.js",
+    "start": "python -m http.server 8000"
+  }
+}

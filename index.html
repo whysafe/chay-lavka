@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Жаровня: чай ручной обжарки</title>
+  <meta name="description" content="Чайная лавка «Жаровня»: улуны, ходзича и пуэры, которые мы прожариваем на углях вручную. Соберите свой купаж.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%232a1a12'/%3E%3Cpath d='M16 6c4 5 6 8 6 12a6 6 0 0 1-12 0c0-3 2-5 3-7 0 3 1 4 3 4-1-3 0-6 0-9z' fill='%23e0703f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#view">К содержимому</a>
+  <header class="top">
+    <div class="wrap top__in">
+      <a class="logo" href="#/">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor" opacity=".12"/><path d="M16 5c4 5 6 8 6 12a6 6 0 0 1-12 0c0-3 2-5 3-7 0 3 1 4 3 4-1-3 0-6 0-9z" fill="#e0703f"/></svg>
+        <span>Жаровня</span>
+      </a>
+      <nav class="nav" aria-label="Разделы">
+        <a href="#/" data-nav="home">Каталог</a>
+        <a href="#/blend" data-nav="blend">Свой купаж</a>
+        <a href="#/cart" data-nav="cart" class="nav__cart">Корзина <b id="cartCount">0</b></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view" class="wrap" tabindex="-1"></main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <div>
+        <div class="logo logo--foot"><span>Жаровня</span></div>
+        <p>Чайная лавка с жаровней на углях. Прожариваем партии по 3 кг и отправляем в течение двух дней.</p>
+      </div>
+      <div>
+        <p><b>Лавка</b><br>Казань, ул. Баумана, 19<br>ежедневно 10:00–21:00</p>
+      </div>
+      <div>
+        <p><b>Доставка</b><br>бесплатно от 3&nbsp;000&nbsp;₽<br>промокод для первого заказа: ПЕРВЫЙ</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/core.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
